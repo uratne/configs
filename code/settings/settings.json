@@ -1,0 +1,66 @@
+{
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Sapphire (Dim)",
+    "terminal.integrated.fontFamily": "'MesloLGS NF'",
+    "svelte.enable-ts-plugin": true,
+    "workbench.iconTheme": "a-file-icon-vscode",
+    "dart.debugExternalPackageLibraries": true,
+    "dart.debugSdkLibraries": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "[css]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+        "*.dart": "${capture}.g.dart",
+        "Cargo.toml": "Cargo.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "debug.autoExpandLazyVariables": "off",
+    "git.enableSmartCommit": true,
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywordsPattern": " (MARK:|TODO:|FIXME:)\\s*(.*?)(?=$|\\n)",
+    "todohighlight.defaultStyle": {
+        "color": "#FFFFF0",
+        "backgroundColor": "#006400",
+        "overviewRulerColor": "#006400",
+        "cursor": "pointer",
+        "border": "1px solid #004000",
+        "borderRadius": "4px",
+        "isWholeLine": false
+        //other styling properties goes here ... 
+    },
+    "todohighlight.include": [
+        "**/*.rs",
+        "**/*.dart",
+        "**/*.java",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.md",
+        "**/*.mmd",
+        "**/*.markdown",
+        "**/*.mdown",
+        "**/*.txt",
+        "**/*.rb",
+        "**/*.go"
+    ],
+}

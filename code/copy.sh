@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp ~/.config/Code/User/settings.json .
-cp ~/.config/Code/User/keybindings.json .
+cp ~/.config/Code/User/settings.json ./settings/
+cp ~/.config/Code/User/keybindings.json ./settings/
 
-code --list-extension > extensions.txt
+code --list-extensions > ./settings/extensions.txt

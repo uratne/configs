@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cat extensions.txt | xargs -L 1 code --install-extension
+cat ./settings/extensions.txt | xargs -L 1 code --install-extension
 mkdir -p ~/.config/Code/User
-cp settings.json ~/.config/Code/User
-cp keybindings.json ~/.config/Code/User
+cp ./settings/settings.json ~/.config/Code/User
+cp ./settings/keybindings.json ~/.config/Code/User
